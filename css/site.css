@@ -721,7 +721,7 @@ body {
 }
 .font-serif {
   font-family: 'Bradford Mono_8-2';
-  letter-spacing: -0.033em;
+  letter-spacing: -0.05em;
 }
 .font-larger {
   font-size: 1.3rem;
@@ -1053,6 +1053,12 @@ hr {
 }
 #image-header {
   max-height: 66vh;
+}
+ul,
+.detail {
+  padding-left: 1em;
+  line-height: 1.7;
+  font-size: 0.8em;
 }
 @media screen and (min-width: 720px) {
   .margin-top-micro {
