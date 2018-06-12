@@ -1051,6 +1051,9 @@ hr {
 .padding-bottom-large {
   padding-bottom: 70px;
 }
+#image-header {
+  max-height: 66vh;
+}
 @media screen and (min-width: 720px) {
   .margin-top-micro {
     margin-top: 7px;
@@ -1315,7 +1318,7 @@ hr {
     max-height: 100%;
   }
   html {
-    font-size: 42px;
+    font-size: 36px;
   }
   .mobile-only {
     display: none !important;
@@ -1584,9 +1587,6 @@ hr {
   .padding-bottom-large {
     padding-bottom: 120px;
   }
-  html {
-    font-size: 42px;
-  }
   .desktop-only {
     display: initial !important;
   }
@@ -1594,6 +1594,9 @@ hr {
 @media screen and (min-width: 1280px) {
   .container {
     width: 1200px;
+  }
+  html {
+    font-size: 42px;
   }
 }
 @media screen and (min-width: 1366px) {
